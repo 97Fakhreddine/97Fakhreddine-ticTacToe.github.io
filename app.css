@@ -1,7 +1,10 @@
 .root {
-  position: relative;
+  position: absolute;
   height: 500px;
   width: 500px;
+  max-width: 500px;
+  max-height: 500px;
+  display: inline-block;
   background-color: #fff;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -69,7 +72,8 @@
   border-radius: 50%;
   position: relative;
   margin-left: auto;
-  margin-top: auto;
+  margin-top: 30px;
+  margin-right: 2px;
 }
 
 .x {
@@ -99,7 +103,19 @@
 }
 #center {
   margin-left: 2em;
-  position: relative;
-  height: 50%;
-  width: 50%;
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  margin-right: 2px;
+}
+#container {
+  margin-left: 40px;
+  margin-top: auto;
+  margin-bottom: 2em;
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  margin-right: 2px;
 }
