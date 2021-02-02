@@ -1,5 +1,5 @@
 body {
-  background-color: greenyellow;
+  background-color: #0effe5;
 }
 .root {
   margin: auto;
@@ -128,4 +128,19 @@ body {
   position: relative;
   margin-left: 60em;
   margin-top: 50px;
+}
+input {
+  height: 30px;
+  width: 50px;
+}
+.form-part {
+  position: relative;
+  margin-left: 60em;
+  width: 200px;
+}
+h1 {
+  font-family: "Potta One", cursive;
+  position: relative;
+  font-size: 3em;
+  margin-left: 19em;
 }

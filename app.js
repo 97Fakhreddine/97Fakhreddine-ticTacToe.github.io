@@ -1,3 +1,12 @@
+var player1 = "";
+var player2 = "";
+
+function changeNames(event) {
+  event.preventDefault();
+  player1 = document.getElementById("input1").val();
+  player2 = document.getElementById("input2").val();
+}
+
 var currentId;
 var counter = 1;
 
@@ -247,7 +256,15 @@ function check() {
       }).then((e) => location.reload());
     }
   } else {
-    alert("that is a draw");
+    Swal.fire({
+      title: "Opps that is a draw",
+      text: "Click Ok to play again.",
+      imageUrl:
+        "https://images.assetsdelivery.com/compings_v2/blankstock/blankstock1903/blankstock190304143.jpg",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "",
+    }).then((e) => location.reload());
   }
 }
 
@@ -255,9 +272,6 @@ function divId(clickedID) {
   // if the div's value is 0 you can append here and set the value to 1
   if (document.getElementById(clickedID).getAttribute("value") == 0) {
     currentId = clickedID;
-    console.log(currentId);
-    // var divValue = document.getElementById(currentId).getAttribute("value");
-    // console.log(divValue);
     if (counter % 2 !== 0) {
       $("#" + currentId).append(x);
       counter++;
@@ -272,21 +286,3 @@ function divId(clickedID) {
     }
   }
 }
-
-var a = $("#a");
-var b = $("#b");
-var c = $("#c");
-var d = $("#d");
-var e = $("#e");
-var f = $("#f");
-var j = $("#j");
-var h = $("#h");
-var k = $("#k");
-
-// if (
-//   $("#a").getAttribute("value") == "x" &&
-//   $("#b").getAttribute("value") == "x" &&
-//   $("#c").getAttribute("value") == "x"
-// ) {
-//   alert("Player X wins");
-// }
