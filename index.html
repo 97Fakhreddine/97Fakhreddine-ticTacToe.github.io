@@ -7,10 +7,17 @@
       crossorigin="anonymous"
     ></script>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sweetalert2.min.css" />
     <link rel="stylesheet" href="sweetalert2.min.css" />
     <link rel="stylesheet" href="app.css" />
+
     <title>Tic Tac Toe</title>
   </head>
   <body>
@@ -24,6 +31,11 @@
       <div class="case" id="j" onclick="divId(this.id)" value="0"></div>
       <div class="case" id="h" onclick="divId(this.id)" value="0"></div>
       <div class="case" id="k" onclick="divId(this.id)" value="0"></div>
+    </div>
+    <div class="reset-btn">
+      <button class="ui primary button" onclick="location.reload()">
+        Reset The game
+      </button>
     </div>
 
     <!-- <div class="x">

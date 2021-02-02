@@ -123,3 +123,9 @@ body {
   margin-top: 30px;
   margin-right: 2px;
 }
+
+.reset-btn {
+  position: relative;
+  margin-left: 60em;
+  margin-top: 50px;
+}
