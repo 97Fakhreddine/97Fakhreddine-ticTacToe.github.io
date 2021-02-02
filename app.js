@@ -1,12 +1,3 @@
-var player1 = "";
-var player2 = "";
-
-function changeNames(event) {
-  event.preventDefault();
-  player1 = document.getElementById("input1").val();
-  player2 = document.getElementById("input2").val();
-}
-
 var currentId;
 var counter = 1;
 
