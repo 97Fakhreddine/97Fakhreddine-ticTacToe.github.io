@@ -24,49 +24,113 @@ function check() {
       document.getElementById("b").getAttribute("value") == "x" &&
       document.getElementById("c").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("d").getAttribute("value") == "x" &&
       document.getElementById("e").getAttribute("value") == "x" &&
       document.getElementById("f").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("j").getAttribute("value") == "x" &&
       document.getElementById("h").getAttribute("value") == "x" &&
       document.getElementById("k").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("a").getAttribute("value") == "x" &&
       document.getElementById("d").getAttribute("value") == "x" &&
       document.getElementById("j").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("b").getAttribute("value") == "x" &&
       document.getElementById("e").getAttribute("value") == "x" &&
       document.getElementById("h").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("c").getAttribute("value") == "x" &&
       document.getElementById("f").getAttribute("value") == "x" &&
       document.getElementById("k").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("a").getAttribute("value") == "x" &&
       document.getElementById("e").getAttribute("value") == "x" &&
       document.getElementById("k").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("c").getAttribute("value") == "x" &&
       document.getElementById("e").getAttribute("value") == "x" &&
       document.getElementById("j").getAttribute("value") == "x"
     ) {
-      alert("Player X wins", 1000);
+      Swal.fire({
+        title: "Player X won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://kilbyfox.co.uk/wp-content/uploads/2018/03/winner.jpg",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     }
     // the O case
     else if (
@@ -74,49 +138,113 @@ function check() {
       document.getElementById("b").getAttribute("value") == "o" &&
       document.getElementById("c").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("d").getAttribute("value") == "o" &&
       document.getElementById("e").getAttribute("value") == "o" &&
       document.getElementById("f").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("j").getAttribute("value") == "o" &&
       document.getElementById("h").getAttribute("value") == "o" &&
       document.getElementById("k").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("a").getAttribute("value") == "o" &&
       document.getElementById("d").getAttribute("value") == "o" &&
       document.getElementById("j").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("b").getAttribute("value") == "o" &&
       document.getElementById("e").getAttribute("value") == "o" &&
       document.getElementById("h").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("c").getAttribute("value") == "o" &&
       document.getElementById("f").getAttribute("value") == "o" &&
       document.getElementById("k").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("a").getAttribute("value") == "o" &&
       document.getElementById("e").getAttribute("value") == "o" &&
       document.getElementById("k").getAttribute("value") == "o"
     ) {
-      alert("Player O wins", 1000);
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     } else if (
       document.getElementById("c").getAttribute("value") == "o" &&
       document.getElementById("e").getAttribute("value") == "o" &&
       document.getElementById("j").getAttribute("value") == "o"
     ) {
-      alert("Player O wins"), 1000;
+      Swal.fire({
+        title: "Player O won!",
+        text: "Click Ok to play again.",
+        imageUrl:
+          "https://leo-daniel.github.io/face-off/assets/images/winner-2.png",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "",
+      }).then((e) => location.reload());
     }
   } else {
     alert("that is a draw");
