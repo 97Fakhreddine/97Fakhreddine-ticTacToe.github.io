@@ -1,0 +1,102 @@
+.root {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+.case {
+  margin: 0px;
+}
+
+#a {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+}
+#b {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+}
+#c {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#d {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+}
+#e {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+}
+#f {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#j {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+#h {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.o {
+  border: 7px solid black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+}
+.x {
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+#x1 {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 100%;
+  transform: rotate(50deg);
+}
+#x2 {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border: 2px solid black;
+  background-color: black;
+  width: 10px;
+  height: 100%;
+  transform: rotate(-50deg);
+}
+#center {
+  margin-left: 2em;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
