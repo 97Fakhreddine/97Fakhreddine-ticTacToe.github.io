@@ -9,103 +9,117 @@ var o = `<div id="container"><div class="o"></div></div>`;
 
 function check() {
   if (
-    document.getElementById("a").getAttribute("value") == "x" &&
-    document.getElementById("b").getAttribute("value") == "x" &&
-    document.getElementById("c").getAttribute("value") == "x"
+    document.getElementById("a").getAttribute("value") == "0" ||
+    document.getElementById("b").getAttribute("value") == "0" ||
+    document.getElementById("c").getAttribute("value") == "0" ||
+    document.getElementById("d").getAttribute("value") == "0" ||
+    document.getElementById("e").getAttribute("value") == "0" ||
+    document.getElementById("f").getAttribute("value") == "0" ||
+    document.getElementById("j").getAttribute("value") == "0" ||
+    document.getElementById("h").getAttribute("value") == "0" ||
+    document.getElementById("k").getAttribute("value") == "0"
   ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("d").getAttribute("value") == "x" &&
-    document.getElementById("e").getAttribute("value") == "x" &&
-    document.getElementById("f").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("j").getAttribute("value") == "x" &&
-    document.getElementById("h").getAttribute("value") == "x" &&
-    document.getElementById("k").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("a").getAttribute("value") == "x" &&
-    document.getElementById("d").getAttribute("value") == "x" &&
-    document.getElementById("j").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("b").getAttribute("value") == "x" &&
-    document.getElementById("e").getAttribute("value") == "x" &&
-    document.getElementById("h").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("c").getAttribute("value") == "x" &&
-    document.getElementById("f").getAttribute("value") == "x" &&
-    document.getElementById("k").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("a").getAttribute("value") == "x" &&
-    document.getElementById("e").getAttribute("value") == "x" &&
-    document.getElementById("k").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  } else if (
-    document.getElementById("c").getAttribute("value") == "x" &&
-    document.getElementById("e").getAttribute("value") == "x" &&
-    document.getElementById("j").getAttribute("value") == "x"
-  ) {
-    alert("Player X wins");
-  }
-  // the O case
-  else if (
-    document.getElementById("a").getAttribute("value") == "o" &&
-    document.getElementById("b").getAttribute("value") == "o" &&
-    document.getElementById("c").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("d").getAttribute("value") == "o" &&
-    document.getElementById("e").getAttribute("value") == "o" &&
-    document.getElementById("f").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("j").getAttribute("value") == "o" &&
-    document.getElementById("h").getAttribute("value") == "o" &&
-    document.getElementById("k").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("a").getAttribute("value") == "o" &&
-    document.getElementById("d").getAttribute("value") == "o" &&
-    document.getElementById("j").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("b").getAttribute("value") == "o" &&
-    document.getElementById("e").getAttribute("value") == "o" &&
-    document.getElementById("h").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("c").getAttribute("value") == "o" &&
-    document.getElementById("f").getAttribute("value") == "o" &&
-    document.getElementById("k").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("a").getAttribute("value") == "o" &&
-    document.getElementById("e").getAttribute("value") == "o" &&
-    document.getElementById("k").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
-  } else if (
-    document.getElementById("c").getAttribute("value") == "o" &&
-    document.getElementById("e").getAttribute("value") == "o" &&
-    document.getElementById("j").getAttribute("value") == "o"
-  ) {
-    alert("Player O wins");
+    if (
+      document.getElementById("a").getAttribute("value") == "x" &&
+      document.getElementById("b").getAttribute("value") == "x" &&
+      document.getElementById("c").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("d").getAttribute("value") == "x" &&
+      document.getElementById("e").getAttribute("value") == "x" &&
+      document.getElementById("f").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("j").getAttribute("value") == "x" &&
+      document.getElementById("h").getAttribute("value") == "x" &&
+      document.getElementById("k").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("a").getAttribute("value") == "x" &&
+      document.getElementById("d").getAttribute("value") == "x" &&
+      document.getElementById("j").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("b").getAttribute("value") == "x" &&
+      document.getElementById("e").getAttribute("value") == "x" &&
+      document.getElementById("h").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("c").getAttribute("value") == "x" &&
+      document.getElementById("f").getAttribute("value") == "x" &&
+      document.getElementById("k").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("a").getAttribute("value") == "x" &&
+      document.getElementById("e").getAttribute("value") == "x" &&
+      document.getElementById("k").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    } else if (
+      document.getElementById("c").getAttribute("value") == "x" &&
+      document.getElementById("e").getAttribute("value") == "x" &&
+      document.getElementById("j").getAttribute("value") == "x"
+    ) {
+      alert("Player X wins", 1000);
+    }
+    // the O case
+    else if (
+      document.getElementById("a").getAttribute("value") == "o" &&
+      document.getElementById("b").getAttribute("value") == "o" &&
+      document.getElementById("c").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("d").getAttribute("value") == "o" &&
+      document.getElementById("e").getAttribute("value") == "o" &&
+      document.getElementById("f").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("j").getAttribute("value") == "o" &&
+      document.getElementById("h").getAttribute("value") == "o" &&
+      document.getElementById("k").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("a").getAttribute("value") == "o" &&
+      document.getElementById("d").getAttribute("value") == "o" &&
+      document.getElementById("j").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("b").getAttribute("value") == "o" &&
+      document.getElementById("e").getAttribute("value") == "o" &&
+      document.getElementById("h").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("c").getAttribute("value") == "o" &&
+      document.getElementById("f").getAttribute("value") == "o" &&
+      document.getElementById("k").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("a").getAttribute("value") == "o" &&
+      document.getElementById("e").getAttribute("value") == "o" &&
+      document.getElementById("k").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins", 1000);
+    } else if (
+      document.getElementById("c").getAttribute("value") == "o" &&
+      document.getElementById("e").getAttribute("value") == "o" &&
+      document.getElementById("j").getAttribute("value") == "o"
+    ) {
+      alert("Player O wins"), 1000;
+    }
+  } else {
+    alert("that is a draw");
   }
 }
 
