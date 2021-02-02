@@ -63,12 +63,15 @@
 }
 
 .o {
-  border: 7px solid black;
+  border: 10px solid black;
   height: 70px;
   width: 70px;
   border-radius: 50%;
   position: relative;
+  margin-left: auto;
+  margin-top: auto;
 }
+
 .x {
   height: 80px;
   width: 80px;
@@ -81,7 +84,7 @@
   border: 2px solid black;
   background-color: black;
   width: 10px;
-  height: 100%;
+  height: 80px;
   transform: rotate(50deg);
 }
 #x2 {
@@ -91,12 +94,12 @@
   border: 2px solid black;
   background-color: black;
   width: 10px;
-  height: 100%;
+  height: 80px;
   transform: rotate(-50deg);
 }
 #center {
   margin-left: 2em;
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
 }

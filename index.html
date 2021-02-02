@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="app.css" />
@@ -8,24 +13,24 @@
   </head>
   <body>
     <div class="root">
-      <div class="case" id="a"></div>
-      <div class="case" id="b"></div>
-      <div class="case" id="c"></div>
-      <div class="case" id="d"></div>
-      <div class="case" id="e"></div>
-      <div class="case" id="f"></div>
-      <div class="case" id="j"></div>
-      <div class="case" id="h"></div>
-      <div class="case" id="k"></div>
+      <div class="case" id="a" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="b" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="c" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="d" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="e" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="f" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="j" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="h" onclick="divId(this.id)" value="0"></div>
+      <div class="case" id="k" onclick="divId(this.id)" value="0"></div>
     </div>
 
-    <div class="x">
+    <!-- <div class="x">
       <div id="center">
         <div id="x1"></div>
         <div id="x2"></div>
       </div>
     </div>
-    <div class="o"></div>
+    <div class="o"></div> -->
     <script src="app.js"></script>
   </body>
 </html>
